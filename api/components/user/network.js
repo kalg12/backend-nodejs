@@ -6,7 +6,6 @@ const router = express.Router();
 const response = require('../../../network/response');
 
 router.get('/', (req, res) => {
-    res.send('Todo funciona');
     response.sucess(req, res, 'Todo bien', 200);
 });
 
